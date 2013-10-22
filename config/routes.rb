@@ -1,4 +1,10 @@
 MVP::Application.routes.draw do
+  resources :teammates
+
+  resources :updates
+
+  resources :companies
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
