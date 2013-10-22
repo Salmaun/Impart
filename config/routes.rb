@@ -1,4 +1,7 @@
 MVP::Application.routes.draw do
+  get "static_pages/about"
+  get "static_pages/tour"
+  get "static_pages/use_cases"
   resources :teammates
 
   resources :updates
